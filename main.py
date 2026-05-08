@@ -12,8 +12,6 @@ pantalla = pygame.display.set_mode((opciones.ANCHO_PANTALLA, opciones.ALTO_PANTA
 # Titulo de la ventana
 pygame.display.set_caption("Mi Juego1")
 
-# Creacion el reloj para fps
-reloj = pygame.time.Clock()  # ← AQUÍ se crea, UNA SOLA VEZ
 
 
 
@@ -29,8 +27,6 @@ jugador.dibujar_personaje(pantalla)
 
 run = True
 while run:
-    # ⏱️ SIEMPRE al inicio del bucle. Limita FPS + devuelve tiempo real en ms
-    dt = reloj.tick(opciones.FPS_OBJETIVO) / 1000.0  
     
     for event in pygame.event.get():
         # Evento para cerrar aplicacion en la x o con ALT+F4
@@ -45,7 +41,14 @@ while run:
                 print("Abajo")
             elif event.key == pygame.K_w:
                 print("Arriba")
-
+            elif event.key == pygame.K_LEFT:
+                print("Izquierda")
+            elif event.key == pygame.K_RIGHT:
+                print("Derecha")
+            elif event.key == pygame.K_DOWN:
+                print("Abajo")
+            elif event.key == pygame.K_UP:
+                print("Arriba")
         
     # Esto es lo que actualiza los componentes en la pantalla
     pygame.display.flip()
