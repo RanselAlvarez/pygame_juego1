@@ -5,6 +5,7 @@ class Personaje():
     def __init__(self, x, y):
         # Coordenadas 0, 0 es la esquina superior izquierda de la pantalla
         # 50, 50 es el tamaño del personaje (ancho y alto)
+        self.rect = pygame.Rect(x, y, 40, 40)
         self.forma = pygame.Rect(0, 0, opciones.ANCHO_PERSONAJE, opciones.ALTO_PERSONAJE)
 
         # Posicion que le damos al personaje en la pantalla
