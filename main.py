@@ -10,7 +10,7 @@ pantalla = pygame.display.set_mode((opciones.ANCHO_PANTALLA, opciones.ALTO_PANTA
 pygame.display.set_caption("Mi Juego1")
 
 # 🧍 Crear personaje
-jugador = Personaje(400, 300)
+jugador = Personaje(375, 275)
 
 run = True
 while run:
