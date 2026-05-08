@@ -1,0 +1,13 @@
+
+# Opciones de pantalla
+ANCHO_PANTALLA = 800
+ALTO_PANTALLA = 600
+FPS_OBJETIVO = 60
+
+# Opciones del personaje
+COLOR_PERSONAJE = (255, 255, 0)
+ALTO_PERSONAJE = 50
+ANCHO_PERSONAJE = 50
+
+
+
