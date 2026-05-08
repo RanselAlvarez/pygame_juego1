@@ -1,5 +1,5 @@
 import pygame
-import opciones
+import src.opciones as opciones
 
 class Personaje():
     def __init__(self, x, y):

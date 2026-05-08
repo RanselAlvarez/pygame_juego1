@@ -1,7 +1,7 @@
 import pygame
 import sys
-import opciones
-from personaje import Personaje
+import src.opciones as opciones
+from src.personaje import Personaje
 
 
 pygame.init()

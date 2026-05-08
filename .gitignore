@@ -1,0 +1,17 @@
+# Entornos virtuales (estándar de la industria)
+.venv/
+venv/
+env/
+
+# Bytecode y caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# IDEs y editores
+.vscode/
+.idea/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
