@@ -17,4 +17,4 @@ class Personaje():
         # Dibujame el rectangulo en la pantalla con el color que le hemos dado al personaje
         # El primer parametro es la superficie donde se dibar (la pantalla), 
         # Self.forma es el rectangulo que queremos dibujar
-        pygame.draw.rect(interfaz, opciones.COLOR_PERSONAJE, self.forma)
+        pygame.draw.rect(interfaz, opciones.COLOR_PERSONAJE, self.rect)

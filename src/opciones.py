@@ -3,6 +3,8 @@
 ANCHO_PANTALLA = 800
 ALTO_PANTALLA = 600
 FPS_OBJETIVO = 60
+COLOR_FONDO = (0, 0, 0)
+
 
 # Opciones del personaje
 COLOR_PERSONAJE = (255, 255, 0)
